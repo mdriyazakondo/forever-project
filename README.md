@@ -1,12 +1,118 @@
-# React + Vite
+# 🚀 forever-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
 
-Currently, two official plugins are available:
+- Basic HTML structure
+- Minimal CSS styling (default styling only)
+- Set up using Vite for fast development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Screenshots
 
-## Expanding the ESLint configuration
+<!-- TODO: Add actual screenshots -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+[![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+
+[![Vite](https://img.shields.io/badge/vite-%23646cff.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js (version 16 or higher recommended)
+- npm (or yarn/pnpm)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mdriyazakondo/forever-project.git
+   cd forever-project
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Visit `http://localhost:5173`
+
+
+## 📁 Project Structure
+
+```
+forever-project/
+├── public/            # Static assets
+├── src/               # Source code
+│   └── App.jsx          # Main application component
+│   └── main.jsx       # Application entry point
+├── index.html        # Main HTML file
+├── package.json       # Project dependencies
+├── package-lock.json  # Dependency lock file
+├── vite.config.js     # Vite configuration
+└── eslint.config.js   # ESLint configuration
+```
+
+
+## ⚙️ Configuration
+
+### Environment Variables
+
+None used.
+
+### Configuration Files
+
+- `vite.config.js`: Vite build configuration.
+- `eslint.config.js`: ESLint configuration for code linting.
+
+
+## 🔧 Development
+
+### Available Scripts
+
+| Command     | Description                |
+
+|-------------|----------------------------|
+
+| `npm run dev` | Starts the development server |
+
+| `npm run build`| Builds the application for production |
+
+## 🧪 Testing
+
+No testing framework is currently configured.
+
+
+## 🚀 Deployment
+
+The project is deployed to Vercel using a GitHub action.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or pull request.
+
+## 📄 License
+
+<!-- TODO: Add license information if applicable -->
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+Made with ❤️ by [mdriyazakondo]
+
+</div>
+
